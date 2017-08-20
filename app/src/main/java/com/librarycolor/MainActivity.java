@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView tv = new TextView(this);
-        util.setColor(tv, R.color.colorPrimary, this);
+        util = new Util();
+        util.setColor(findViewById(R.id.tv), R.color.colorPrimary, this);
     }
 }

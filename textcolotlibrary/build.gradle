@@ -1,17 +1,17 @@
 apply plugin: 'com.android.library'
 
 ext {
-    bintrayRepo = 'textcolor'
-    bintrayName = 'TextColor'
+    bintrayRepo = 'SdkTextColor'
+    bintrayName = 'SdkTextColor'
 
-    publishedGroupId = 'com.textcolotlibrary'
-    libraryName = 'TextColor'
-    artifact = 'TextColor'
+    publishedGroupId = 'com.librarycolor'
+    libraryName = 'SdkTextColor'
+    artifact = 'SdkTextColor'
 
     libraryDescription = 'A support to load android text color.'
 
-    siteUrl = ''
-    gitUrl = 'https://github.com/visht/test'
+    siteUrl = 'https://github.com/visht/AndroidTextColorSetter'
+    gitUrl = 'https://github.com/visht/AndroidTextColorSetter.git'
 
     libraryVersion = '1.0.0'
 
