@@ -1,1 +1,1 @@
-include ':app', ':textcolotlibrary'
+include ':app', ':viewcolorlibrary'
