@@ -1,10 +1,9 @@
-package com.librarycolor;
+package com.vishalsdks;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.TextView;
 
-import com.textcolotlibrary.Util;
+import com.sdktextcolor.Util;
 
 public class MainActivity extends AppCompatActivity {
     private Util util;

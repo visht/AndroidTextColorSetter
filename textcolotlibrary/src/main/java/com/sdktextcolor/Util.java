@@ -1,4 +1,4 @@
-package com.textcolotlibrary;
+package com.sdktextcolor;
 
 import android.content.Context;
 import android.os.Build;
