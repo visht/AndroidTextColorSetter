@@ -22,8 +22,13 @@ public class Util {
         if (Build.VERSION.SDK_INT >= 23) {
             if (view instanceof TextView)
                 ((TextView) view).setTextColor(ctx.getResources().getColor(color, null));
+            else
+                view.setBackgroundColor(ctx.getResources().getColor(color, null));
         } else {
-            ((TextView) view).setTextColor(ctx.getResources().getColor(color));
+            if (view instanceof TextView)
+                ((TextView) view).setTextColor(ctx.getResources().getColor(color));
+            else
+                view.setBackgroundColor(ctx.getResources().getColor(color));
         }
     }
 
