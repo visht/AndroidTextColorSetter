@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         util = new Util();
         util.setColor(findViewById(R.id.tv), R.color.colorPrimary, this);
+        util.setColor(findViewById(R.id.activity_main), R.color.yellow, this);
     }
 }
